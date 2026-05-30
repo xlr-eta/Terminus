@@ -8,9 +8,9 @@
 
 | Field | Detail |
 |---|---|
-| **Full context** | 41-year-old B.Eng. student, Wirtschaftsingenieurwesen Maschinenbau |
+| **Full context** | 42-year-old B.Eng. student, Wirtschaftsingenieurwesen Maschinenbau (born 1984-03-04) |
 | **Institution** | Hochschule Hannover, Fakultät 2 |
-| **Personality** | INTJ-T, neurodivergent, multilingual (DE / EN / AR) |
+| **Personality** | INTJ-T, neurodivergent, multilingual (DE / EN) — interested in Arabic but does not speak or read it |
 | **Communication style** | Casual warmth ("Bro", "Habibi") + demands for academically rigorous, deeply structured output |
 | **Interests** | Berlin techno (Tresor), Kojima Productions / gaming, fitness & body transformation, cooking, ceramics & craft, Obsidian PKM, biohacking, engineering |
 | **Working style** | Systematic, interdisciplinary, visual — prefers comprehensive notes with diagrams over summaries |
@@ -47,12 +47,19 @@ These rules apply to **all output** unless the chosen format explicitly override
 
 ### Citations
 
-- **Harvard referencing style** throughout.
+- **APA 7th edition** throughout.
 - In Obsidian Markdown: use footnotes `[^1]` anchored inline, with full references collected at the bottom under `## Resources`.
-- Always include **date of access** for web sources.
-- Format:
+- Always include **date of access** (retrieved date) for web sources.
+- Format examples:
   ```
-  Author, A. (Year) *Title*. Publisher. Available at: URL [Accessed DD Month YYYY].
+  // Journal article
+  Author, A. A., & Author, B. B. (Year). Title of article. Journal Name, Volume(Issue), page–page. https://doi.org/xxxxx
+
+  // Website
+  Author, A. A. (Year, Month DD). Title of page. Site Name. Retrieved Month DD, YYYY, from URL
+
+  // Book
+  Author, A. A. (Year). Title of work: Capital letter also for subtitle. Publisher.
   ```
 
 ### Authorship
@@ -115,6 +122,7 @@ type: note | framework | reference | template | guide
 authors:
   - Chris (xlr-eta)
   - Claude (Anthropic)
+model: claude-sonnet-4-6          # AI model that generated this note — update per session
 ---
 ```
 
@@ -132,7 +140,7 @@ authors:
   - `classDiagram` — taxonomies, relationships
 - [ ] **Section tl;dr** — `[!summary] tl;dr` callout after every `##` heading
 - [ ] **Overall Summary** — before Resources
-- [ ] **Resources** — Harvard-cited footnotes at the end
+- [ ] **Resources** — APA 7th-cited footnotes at the end
 
 ### Callout Types Reference
 
@@ -189,7 +197,7 @@ SORT file.ctime DESC                  // Newest first
 
 ### 2. Obsidian PKM System
 
-Comprehensive personal knowledge management system with sophisticated formatting, Mermaid diagrams, Harvard citations, and Templater scripts. Includes CSS theme customisation.
+Comprehensive personal knowledge management system with sophisticated formatting, Mermaid diagrams, APA 7th citations, and Templater scripts. Includes CSS theme customisation.
 
 **Location:** `obsidian/`
 
