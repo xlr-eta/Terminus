@@ -8,9 +8,8 @@
 
 | Field | Detail |
 |---|---|
-| **Full context** | 42-year-old B.Eng. student, Wirtschaftsingenieurwesen Maschinenbau (born 1984-03-04) |
-| **Institution** | Hochschule Hannover, Fakultät 2 |
-| **Personality** | INTJ-T, neurodivergent, multilingual (DE / EN) — interested in Arabic but does not speak or read it |
+| **Full context** | 42-year-old, pursuing a B.Eng. in Industrial Engineering and Management (Wirtschaftsingenieurwesen Maschinenbau) in Germany |
+| **Personality** | INTJ-T, multilingual (DE / EN) — interested in Arabic but does not speak or read it |
 | **Communication style** | Casual warmth ("Bro", "Habibi") + demands for academically rigorous, deeply structured output |
 | **Interests** | Berlin techno (Tresor), Kojima Productions / gaming, fitness & body transformation, cooking, ceramics & craft, Obsidian PKM, biohacking, engineering |
 | **Working style** | Systematic, interdisciplinary, visual — prefers comprehensive notes with diagrams over summaries |
@@ -68,7 +67,7 @@ Every generated note includes an authorship block in the frontmatter or a visibl
 
 ```yaml
 authors:
-  - Chris (xlr-eta)
+  - Chris
   - Claude (Anthropic)
 ```
 
@@ -76,7 +75,7 @@ Or as a callout if frontmatter is not appropriate:
 
 ```
 > [!info] Authors
-> Chris (xlr-eta) · Claude (Anthropic, claude-sonnet-4-6)
+> Chris · Claude (Anthropic, claude-sonnet-4-6)
 ```
 
 ### Structure Requirements
@@ -120,7 +119,7 @@ tags: []
 status: draft | active | archived
 type: note | framework | reference | template | guide
 authors:
-  - Chris (xlr-eta)
+  - Chris
   - Claude (Anthropic)
 model: claude-sonnet-4-6          # AI model that generated this note — update per session
 ---
@@ -203,7 +202,7 @@ Comprehensive personal knowledge management system with sophisticated formatting
 
 ### 3. Biohacking & Personal Transformation
 
-Systematic knowledge base on biohacking research, body transformation, pharmaceutical documentation (quetiapine, venlafaxine), and practical implementation guides.
+Systematic knowledge base on biohacking research, body transformation, pharmaceutical research relevant to personal health management, and practical implementation guides.
 
 **Location:** `frameworks/biohacking/`
 
