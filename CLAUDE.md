@@ -46,7 +46,7 @@ These rules apply to **all output** unless the chosen format explicitly override
 
 ### Citations
 
-- **APA 7th edition** throughout.
+- **APA 7th edition** throughout. *(Confirmed by Chris on 2026-11-15 — APA overrides the older "Harvard" wording in Chris's general Claude preferences.)*
 - In Obsidian Markdown: use footnotes `[^1]` anchored inline, with full references collected at the bottom under `## Resources`.
 - Always include **date of access** (retrieved date) for web sources.
 - Format examples:
@@ -75,7 +75,7 @@ Or as a callout if frontmatter is not appropriate:
 
 ```
 > [!info] Authors
-> Chris · Claude (Anthropic, claude-sonnet-4-6)
+> Chris · Claude (Anthropic)
 ```
 
 ### Structure Requirements
@@ -121,7 +121,7 @@ type: note | framework | reference | template | guide
 authors:
   - Chris
   - Claude (Anthropic)
-model: claude-sonnet-4-6          # AI model that generated this note — update per session
+model: ""                         # AI model that generated this note — fill in per note, never reuse a stale value
 ---
 ```
 
